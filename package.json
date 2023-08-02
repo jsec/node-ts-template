@@ -1,14 +1,19 @@
 {
   "name": "node-ts-template",
   "version": "1.0.0",
-  "description": "",
+  "description": "jsec's TypeScript starter kit",
   "main": "index.js",
   "scripts": {
+    "prepare": "node ./scripts/prepare.js",
     "test": "ava"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jsec/node-ts-template.git"
+  },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Jarrod Seccombe <jarrod.seccombe@icloud.com>",
+  "license": "MIT",
   "ava": {
     "extensions": {
       "ts": "module"
@@ -17,8 +22,14 @@
       "--loader=tsx"
     ]
   },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
   "devDependencies": {
     "ava": "^5.3.1",
+    "cz-conventional-changelog": "^3.3.0",
     "husky": "^8.0.3",
     "lint-staged": "^13.2.3",
     "tsx": "^3.12.7",
