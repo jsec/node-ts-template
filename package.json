@@ -6,8 +6,8 @@
   "scripts": {
     "prepare": "node ./scripts/prepare.js",
     "lint": "eslint --ext .ts . --max-warnings 0",
-    "test": "ava",
-    "test:coverage": "c8 ava"
+    "test": "mocha",
+    "test:coverage": "c8 mocha"
   },
   "repository": {
     "type": "git",
@@ -16,14 +16,6 @@
   "keywords": [],
   "author": "Jarrod Seccombe <jarrod.seccombe@icloud.com>",
   "license": "MIT",
-  "ava": {
-    "extensions": {
-      "ts": "module"
-    },
-    "nodeArguments": [
-      "--loader=tsx"
-    ]
-  },
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
@@ -33,13 +25,16 @@
     "@jarsec/eslint-config": "2.0.2",
     "@jarsec/prettier-config": "1.2.0",
     "@jarsec/tsconfig": "1.1.0",
+    "@types/chai": "4.3.6",
+    "@types/mocha": "^10.0.1",
     "@types/node": "20.6.2",
-    "ava": "5.3.1",
     "c8": "8.0.1",
+    "chai": "4.3.8",
     "cz-conventional-changelog": "3.3.0",
     "husky": "8.0.3",
     "lint-staged": "14.0.1",
-    "tsx": "3.12.10",
+    "mocha": "10.2.0",
+    "ts-node": "10.9.1",
     "typescript": "5.2.2"
   }
 }
