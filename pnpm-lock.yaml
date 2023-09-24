@@ -9,8 +9,8 @@ devDependencies:
     specifier: 2.0.2
     version: 2.0.2(eslint@8.47.0)(prettier@3.0.1)(typescript@5.2.2)
   '@jarsec/prettier-config':
-    specifier: 1.2.0
-    version: 1.2.0
+    specifier: 1.2.1
+    version: 1.2.1
   '@jarsec/tsconfig':
     specifier: 1.1.0
     version: 1.1.0
@@ -18,11 +18,11 @@ devDependencies:
     specifier: 4.3.6
     version: 4.3.6
   '@types/mocha':
-    specifier: ^10.0.1
+    specifier: 10.0.1
     version: 10.0.1
   '@types/node':
-    specifier: 20.6.2
-    version: 20.6.2
+    specifier: 20.6.4
+    version: 20.6.4
   c8:
     specifier: 8.0.1
     version: 8.0.1
@@ -43,7 +43,7 @@ devDependencies:
     version: 10.2.0
   ts-node:
     specifier: 10.9.1
-    version: 10.9.1(@types/node@20.6.2)(typescript@5.2.2)
+    version: 10.9.1(@types/node@20.6.4)(typescript@5.2.2)
   typescript:
     specifier: 5.2.2
     version: 5.2.2
@@ -112,15 +112,15 @@ packages:
       '@commitlint/execute-rule': 17.4.0
       '@commitlint/resolve-extends': 17.6.7
       '@commitlint/types': 17.4.4
-      '@types/node': 20.6.2
+      '@types/node': 20.6.4
       chalk: 4.1.2
       cosmiconfig: 8.2.0
-      cosmiconfig-typescript-loader: 4.4.0(@types/node@20.6.2)(cosmiconfig@8.2.0)(ts-node@10.9.1)(typescript@5.2.2)
+      cosmiconfig-typescript-loader: 4.4.0(@types/node@20.6.4)(cosmiconfig@8.2.0)(ts-node@10.9.1)(typescript@5.2.2)
       lodash.isplainobject: 4.0.6
       lodash.merge: 4.6.2
       lodash.uniq: 4.5.0
       resolve-from: 5.0.0
-      ts-node: 10.9.1(@types/node@20.6.2)(typescript@5.2.2)
+      ts-node: 10.9.1(@types/node@20.6.4)(typescript@5.2.2)
       typescript: 5.2.2
     transitivePeerDependencies:
       - '@swc/core'
@@ -247,8 +247,8 @@ packages:
       - supports-color
     dev: true
 
-  /@jarsec/prettier-config@1.2.0:
-    resolution: {integrity: sha512-dVrgG+k3O0ET7Na1ktBpHozhX1lGX924MgG9ChrJv9WVy1up8Egva6O3u8mZQNfNr4d7I12GEiaje1i/jZkbNw==}
+  /@jarsec/prettier-config@1.2.1:
+    resolution: {integrity: sha512-Zt1jOtrMkLUtZxR5ovWUkDAFQumHeAcCLObrF3Xq2OFUE3DgXtRdmVgzX6YTAYthkASwm+wGsNI7F18fWWvqvg==}
     dev: true
 
   /@jarsec/tsconfig@1.1.0:
@@ -358,8 +358,8 @@ packages:
     resolution: {integrity: sha512-/fvYntiO1GeICvqbQ3doGDIP97vWmvFt83GKguJ6prmQM2iXZfFcq6YE8KteFyRtX2/h5Hf91BYvPodJKFYv5Q==}
     dev: true
 
-  /@types/node@20.6.2:
-    resolution: {integrity: sha512-Y+/1vGBHV/cYk6OI1Na/LHzwnlNCAfU3ZNGrc1LdRe/LAIbdDPTTv/HU3M7yXN448aTVDq3eKRm2cg7iKLb8gw==}
+  /@types/node@20.6.4:
+    resolution: {integrity: sha512-nU6d9MPY0NBUMiE/nXd2IIoC4OLvsLpwAjheoAeuzgvDZA1Cb10QYg+91AF6zQiKWRN5i1m07x6sMe0niBznoQ==}
     dev: true
 
   /@types/semver@7.5.0:
@@ -979,7 +979,7 @@ packages:
     resolution: {integrity: sha512-ASFBup0Mz1uyiIjANan1jzLQami9z1PoYSZCiiYW2FczPbenXc45FZdBZLzOT+r6+iciuEModtmCti+hjaAk0A==}
     dev: true
 
-  /cosmiconfig-typescript-loader@4.4.0(@types/node@20.6.2)(cosmiconfig@8.2.0)(ts-node@10.9.1)(typescript@5.2.2):
+  /cosmiconfig-typescript-loader@4.4.0(@types/node@20.6.4)(cosmiconfig@8.2.0)(ts-node@10.9.1)(typescript@5.2.2):
     resolution: {integrity: sha512-BabizFdC3wBHhbI4kJh0VkQP9GkBfoHPydD0COMce1nJ1kJAB3F2TmJ/I7diULBKtmEWSwEbuN/KDtgnmUUVmw==}
     engines: {node: '>=v14.21.3'}
     requiresBuild: true
@@ -989,9 +989,9 @@ packages:
       ts-node: '>=10'
       typescript: '>=4'
     dependencies:
-      '@types/node': 20.6.2
+      '@types/node': 20.6.4
       cosmiconfig: 8.2.0
-      ts-node: 10.9.1(@types/node@20.6.2)(typescript@5.2.2)
+      ts-node: 10.9.1(@types/node@20.6.4)(typescript@5.2.2)
       typescript: 5.2.2
     dev: true
     optional: true
@@ -3200,7 +3200,7 @@ packages:
       typescript: 5.2.2
     dev: true
 
-  /ts-node@10.9.1(@types/node@20.6.2)(typescript@5.2.2):
+  /ts-node@10.9.1(@types/node@20.6.4)(typescript@5.2.2):
     resolution: {integrity: sha512-NtVysVPkxxrwFGUUxGYhfux8k78pQB3JqYBXlLRZgdGUqTO5wU/UyHop5p70iEbGhB7q5KmiZiU0Y3KlJrScEw==}
     hasBin: true
     requiresBuild: true
@@ -3220,7 +3220,7 @@ packages:
       '@tsconfig/node12': 1.0.11
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.4
-      '@types/node': 20.6.2
+      '@types/node': 20.6.4
       acorn: 8.10.0
       acorn-walk: 8.2.0
       arg: 4.1.3
