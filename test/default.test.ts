@@ -1,10 +1,12 @@
-import { expect } from 'chai';
+import test from 'ava';
+import { add } from '../src/index.js';
 
-import { add } from '../src';
-
-describe('add', () => {
-  it('adds two numbers', () => {
+test('adds two numbers', t => {
     const result = add(1, 2);
-    expect(result).to.equal(3);
-  });
+    t.is(result, 3);
+});
+
+test.failing('should fail', t => {
+    const result = add(1, 2);
+    t.is(result, 4);
 });

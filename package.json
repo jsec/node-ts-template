@@ -2,12 +2,12 @@
   "name": "node-ts-template",
   "version": "1.0.0",
   "description": "jsec's TypeScript starter kit",
-  "main": "index.js",
+  "type": "module",
   "scripts": {
-    "prepare": "node ./scripts/prepare.js",
+    "prepare": "node ./scripts/prepare.cjs",
     "lint": "eslint --ext .ts . --max-warnings 0",
-    "test": "mocha",
-    "test:coverage": "c8 mocha"
+    "test": "NODE_OPTIONS='--import=tsx --no-warnings' ava",
+    "test:coverage": "NODE_OPTIONS='--import=tsx --no-warnings' c8 ava"
   },
   "repository": {
     "type": "git",
@@ -25,16 +25,21 @@
     "@jarsec/eslint-config": "3.1.0",
     "@jarsec/prettier-config": "1.2.1",
     "@jarsec/tsconfig": "1.1.0",
-    "@types/chai": "4.3.6",
-    "@types/mocha": "10.0.2",
     "@types/node": "20.8.0",
+    "ava": "5.3.1",
     "c8": "8.0.1",
-    "chai": "4.3.10",
     "cz-conventional-changelog": "3.3.0",
     "husky": "8.0.3",
     "lint-staged": "14.0.1",
-    "mocha": "10.2.0",
-    "ts-node": "10.9.1",
+    "tsx": "^3.14.0",
     "typescript": "5.2.2"
+  },
+  "ava": {
+    "extensions": {
+      "ts": "commonjs"
+    },
+    "nodeArguments": [
+      "--loader=tsx"
+    ]
   }
 }
