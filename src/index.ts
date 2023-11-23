@@ -1,5 +1,5 @@
 function add(first: number, second: number): number {
-  return first + second;
+  return first + second
 }
 
-export { add };
+export { add }

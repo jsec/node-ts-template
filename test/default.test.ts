@@ -1,12 +1,13 @@
-import test from 'ava';
-import { add } from '../src/index.js';
+import test from 'ava'
 
-test('adds two numbers', t => {
-    const result = add(1, 2);
-    t.is(result, 3);
-});
+import { add } from '../src/index.js'
 
-test.failing('should fail', t => {
-    const result = add(1, 2);
-    t.is(result, 4);
-});
+test('adds two numbers', (t) => {
+  const result = add(1, 2)
+  t.is(result, 3)
+})
+
+test.failing('should fail', (t) => {
+  const result = add(1, 2)
+  t.is(result, 4)
+})
