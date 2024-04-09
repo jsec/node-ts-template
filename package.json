@@ -21,7 +21,7 @@
     }
   },
   "devDependencies": {
-    "@jarsec/eslint-config": "4.4.0",
+    "@jarsec/eslint-config": "4.5.0",
     "@jarsec/tsconfig": "2.0.0",
     "@types/node": "20.11.24",
     "ava": "6.1.2",
