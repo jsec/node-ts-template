@@ -3,10 +3,9 @@
   "version": "1.0.0",
   "description": "jsec's TypeScript starter kit",
   "scripts": {
-    "prepare": "node ./scripts/prepare.cjs",
+    "prepare": "node .husky/install.mjs",
     "lint": "eslint --ext .ts . --max-warnings 0",
-    "test": "NODE_OPTIONS='--import=tsx --no-warnings' ava",
-    "test:coverage": "NODE_OPTIONS='--import=tsx --no-warnings' c8 ava"
+    "test": "vitest"
   },
   "repository": {
     "type": "git",
@@ -24,21 +23,12 @@
     "@jarsec/eslint-config": "4.5.0",
     "@jarsec/tsconfig": "2.0.0",
     "@types/node": "20.11.24",
-    "ava": "6.1.2",
-    "c8": "9.1.0",
     "cz-conventional-changelog": "3.3.0",
     "husky": "9.0.11",
     "lint-staged": "15.2.2",
     "prettier": "^3.2.5",
     "tsx": "4.7.2",
-    "typescript": "5.4.4"
-  },
-  "ava": {
-    "extensions": {
-      "ts": "commonjs"
-    },
-    "nodeArguments": [
-      "--loader=tsx"
-    ]
+    "typescript": "5.4.4",
+    "vitest": "1.4.0"
   }
 }

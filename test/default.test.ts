@@ -1,13 +1,8 @@
-import test from 'ava'
+import {expect, test} from 'vitest';
 
-import { add } from '../src/index.js'
+import {add} from '../src';
 
-test('adds two numbers', (t) => {
-  const result = add(1, 2)
-  t.is(result, 3)
-})
-
-test.failing('should fail', (t) => {
-  const result = add(1, 2)
-  t.is(result, 4)
-})
+test('adds two numbers', () => {
+  const result = add(1, 2);
+  expect(result).to.equal(3);
+});
