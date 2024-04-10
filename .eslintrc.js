@@ -1,3 +1,3 @@
 module.exports = {
-  extends: ['@jarsec/eslint-config']
+  extends: [ '@jarsec/eslint-config' ]
 };

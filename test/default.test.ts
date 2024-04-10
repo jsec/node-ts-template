@@ -1,6 +1,6 @@
-import {expect, test} from 'vitest';
+import { expect, test } from 'vitest';
 
-import {add} from '../src';
+import { add } from '../src';
 
 test('adds two numbers', () => {
   const result = add(1, 2);
