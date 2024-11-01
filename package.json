@@ -20,7 +20,7 @@
     }
   },
   "devDependencies": {
-    "@jarsec/eslint-config": "5.1.0",
+    "@jarsec/eslint-config": "5.2.0",
     "@jarsec/tsconfig": "2.1.0",
     "@types/node": "20.11.24",
     "cz-conventional-changelog": "3.3.0",
