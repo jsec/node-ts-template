@@ -2,11 +2,7 @@
   "name": "node-ts-template",
   "version": "1.0.0",
   "description": "jsec's TypeScript starter kit",
-  "scripts": {
-    "prepare": "node .husky/install.mjs",
-    "lint": "eslint --ext .ts . --max-warnings 0",
-    "test": "vitest"
-  },
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "https://github.com/jsec/node-ts-template.git"
@@ -19,16 +15,20 @@
       "path": "./node_modules/cz-conventional-changelog"
     }
   },
+  "scripts": {
+    "prepare": "node .husky/install.mjs",
+    "lint": "eslint --ext .ts . --max-warnings 0",
+    "test": "vitest"
+  },
   "devDependencies": {
-    "@jarsec/eslint-config": "5.2.0",
-    "@jarsec/tsconfig": "2.1.0",
-    "@types/node": "20.11.24",
-    "cz-conventional-changelog": "3.3.0",
-    "husky": "9.1.6",
-    "lint-staged": "15.2.10",
-    "prettier": "^3.2.5",
-    "tsx": "4.19.2",
-    "typescript": "5.6.3",
-    "vitest": "1.6.0"
+    "@jarsec/eslint-config": "6.0.1",
+    "@jarsec/tsconfig": "3.0.0",
+    "cz-conventional-changelog": "^3.3.0",
+    "eslint": "^9.15.0",
+    "husky": "9.0.11",
+    "lint-staged": "15.2.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.5"
   }
 }
