@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       '@jarsec/eslint-config':
-        specifier: 6.2.1
-        version: 6.2.1(eslint@9.28.0(jiti@1.21.0))(typescript@5.7.2)
+        specifier: 6.2.2
+        version: 6.2.2(eslint@9.28.0(jiti@1.21.0))(typescript@5.7.2)
       '@jarsec/tsconfig':
         specifier: 3.0.1
         version: 3.0.1
@@ -416,8 +416,8 @@ packages:
     resolution: {integrity: sha512-bV0Tgo9K4hfPCek+aMAn81RppFKv2ySDQeMoSZuvTASywNTnVJCArCZE2FWqpvIatKu7VMRLWlR1EazvVhDyhQ==}
     engines: {node: '>=18.18'}
 
-  '@jarsec/eslint-config@6.2.1':
-    resolution: {integrity: sha512-swTqIIsg0hsCXtfxPLOoqxqaesLJa4qa38y9O8JKSZxt4k/OyY5eNW2cA0KLiS1x9ARuGt6cq0BZhp5vFU9DtQ==}
+  '@jarsec/eslint-config@6.2.2':
+    resolution: {integrity: sha512-TgYhm3a98bs+4ghKcgEoVkW4qgevrLjAPXBa0fnoBdfpcYiQXSXHDwyjVSL3cDsibV3EmqiYRF6nQVWmxlstUA==}
     peerDependencies:
       eslint: ^9.13.0
       typescript: ^5.3.3
@@ -2183,7 +2183,7 @@ snapshots:
 
   '@humanwhocodes/retry@0.4.3': {}
 
-  '@jarsec/eslint-config@6.2.1(eslint@9.28.0(jiti@1.21.0))(typescript@5.7.2)':
+  '@jarsec/eslint-config@6.2.2(eslint@9.28.0(jiti@1.21.0))(typescript@5.7.2)':
     dependencies:
       '@eslint/js': 9.28.0
       '@stylistic/eslint-plugin': 4.4.0(eslint@9.28.0(jiti@1.21.0))(typescript@5.7.2)
