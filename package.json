@@ -24,7 +24,7 @@
     "@jarsec/eslint-config": "6.3.0",
     "@jarsec/tsconfig": "3.0.1",
     "cz-conventional-changelog": "^3.3.0",
-    "eslint": "^9.39.0",
+    "eslint": "^9.39.1",
     "husky": "9.1.7",
     "lint-staged": "15.2.2",
     "tsx": "^4.19.4",
