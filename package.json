@@ -21,7 +21,7 @@
     "test": "vitest"
   },
   "devDependencies": {
-    "@jarsec/eslint-config": "6.3.0",
+    "@jarsec/eslint-config": "6.4.0",
     "@jarsec/tsconfig": "3.0.1",
     "cz-conventional-changelog": "^3.3.0",
     "eslint": "^9.39.2",
